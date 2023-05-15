@@ -7,7 +7,7 @@ According to your emails, it looks like MovieStream wants to start selling merch
 
 Your manager already assigned you the JIRA ticket and passed along a changelog with the database object table you will need. Let’s add it to your database schema.
 
-*In this lab you will learn how to bookmark your database state, apply an update, then roll the update back undoing its effects.*
+**Note:** In this lab you will learn how to bookmark your database state, apply an update, then roll the update back undoing its effects.
 
 *Estimated Time:* 5 Minutes
 
@@ -37,9 +37,9 @@ Completion of:
       ```
 
    2. Before applying your changelog, let’s bookmark your database schema state with the `tag` command.
-   * The `tag` command marks the current database state so you can roll back changes in the future.
-      * This way you can deploy changelogs and have the peace of mind that you can rollback and undo these changes if need be.
-   * Let’s name the tag "version1".
+      * The `tag` command marks the current database state so you can roll back changes in the future.
+         * This way you can deploy changelogs and have the peace of mind that you can rollback and undo these changes if need be.
+      * Let’s name the tag "version1".
 
       ```na
       <copy>
@@ -63,7 +63,7 @@ Completion of:
 
 ## Task 2: Apply a changelog and roll it back
    1. Now that creating a tag has been taken care of, you are all set to run the merchandise\_table.xml changelog and create your merchandise table!
-   * This is the table you created and saved to a changelog [Back In Lab 1 Task 3 Step 5](/workshops/freetier/?lab=lab1-help-generate-update#Task3:Generateyourdatabaseschemafiles)
+      * This is the table you created and saved to a changelog [Back In Lab 1 Task 3 Step 5](/workshops/freetier/?lab=lab1-help-generate-update#Task3:Generateyourdatabaseschemafiles)
 
       ```na
       <copy>
@@ -84,9 +84,9 @@ Completion of:
       ![Merchandise Added To Tables List](./images/5tablesmerchandiseadded.png)
 
    3. Sure enough, it looks like you just got an email from your manager. The merchandise table still needs some work and you’ll receive the new changelog by the end of the week. In the meantime, let’s undo this changelog with the `liquibase rollback` command.
-   * `liquibase rollback` undoes the changelog applied after a specified tag.
-      * The `-changelog-file` mandatory parameter is the name of the changelog you are undoing.
-      * The `-tag` mandatory parameter is the specific tag you are rolling back to in your databasechangelog table.
+      * `liquibase rollback` undoes the changelog applied after a specified tag.
+         * The `-changelog-file` mandatory parameter is the name of the changelog you are undoing.
+         * The `-tag` mandatory parameter is the specific tag you are rolling back to in your databasechangelog table.
 
 
    ```na

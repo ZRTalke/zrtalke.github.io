@@ -13,7 +13,7 @@ This will save them invaluable time and energy, and the startup: precious resour
 With SQLcl Liquibase you can integrate database change automation into your larger CI/CD (Continuous Integration/Continuous Delivery) pipeline.
 
 ![Pipeline Example](./images/pipeline-image.png)
-*Example database section of a CI/CD pipeline utilizing SQLcl Liquibase. Changelogs are the files Liquibase saves database objects to. We'll talk more about them later.*
+**Note:** Example database section of a CI/CD pipeline utilizing SQLcl Liquibase. Changelogs are the files Liquibase saves database objects to. We'll talk more about them later.
 
 *Estimated Workshop Time:* 1 Hour 15 Minutes
 
