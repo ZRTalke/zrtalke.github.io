@@ -70,7 +70,7 @@ Completion of:
 
     ![Cloud Shell Upload](./images/5click-upload.png " ")
 
- 2. Download workshop_changelogs.zip by clicking the link.
+ 2. Download [workshop_changelogs.zip](https://objectstorage.us-ashburn-1.oraclecloud.com/p/LNAcA6wNFvhkvHGPcWIbKlyGkicSOVCIgWLIu6t7W2BQfwq2NSLCsXpTL9wVzjuP/n/c4u04/b/livelabsfiles/o/developer-library/workshop_changelogs.zip) by clicking the link.
     * This contains the files you'll be using.
 
  3. Once that zip file has downloaded to your computer, select it in the "File Upload to your Home Directory" menu and click Upload.
@@ -93,6 +93,12 @@ Completion of:
     ![Unzip Changelogs](./images/8unzip-changelogs.png " ")
 
  6. You can view your wallet and changelog folder with the Linux list (`ls`) command
+
+    ```na
+    <copy>
+    ls
+    </copy>
+    ```
 
     ![View Wallet and Changelog Folder](./images/9ls-command.png " ")
 
@@ -154,7 +160,7 @@ Completion of:
             * A typical application connection service for transaction processing operations. This connection service does not run with parallelism.
 
  5. Enter your **WKSP_LIQUIBASEDEMO** password at the prompt.
-    * This is the database password you set in Lab 1: Setup Task 2 Step 6 when you were creating your APEX Workspace
+    * This is the database password you set in [Lab 1: Setup Task 2 Step 6](../workshops/tenancy/?lab=lab1-setup#Task2:CreateYourAPEXWorkspace) when you were creating your APEX Workspace
 
     ![Connect Command](./images/13connect-command.png " ")
 

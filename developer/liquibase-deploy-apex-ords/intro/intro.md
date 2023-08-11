@@ -6,7 +6,7 @@ In this workshop you will learn how you can automatically deploy APEX applicatio
 
 ![Coffee and Work](./images/coffee-and-workv2.jpg)
 
-With a few simple commands, you can capture sections of or entire Oracle Database schemas into version control compatible Liquibase files called changelogs. These changelogs can then be deployed to recreate its contents in other users or databases entirely.
+With a few simple commands, you can capture sections of, or entire Oracle Database schemas into version control compatible Liquibase files called changelogs. These changelogs can then be deployed to recreate its contents in other users or databases entirely.
 
 These labs will walk you through a full stack scenario where you will be given changelogs to not just deploy and update a core application, but also REST APIs, database objects, and data to power and enhance it.
 
@@ -34,7 +34,7 @@ Learn to deploy an APEX application and supporting components using SQLcl Liquib
 ### Prerequisites
 This workshop requires an Oracle Cloud account or your own Oracle Database with SQLcl installed on your computer and an APEX instance.
 
-For using your own Oracle Database you may skip any workshop areas that don't apply to you (such as the create your Autonomous Database steps in [Lab 1: Setup](../workshops/tenancy/?lab=lab1-setup)) and simply input your connection credentials into SQLcl.
+For using your own Oracle Database, you may skip any workshop areas that don't apply to you (such as the create your Autonomous Database steps in [Lab 1: Setup](../workshops/tenancy/?lab=lab1-setup)) and simply input your connection credentials into SQLcl.
 
 You may now **proceed to the next section**.
 
@@ -44,7 +44,7 @@ You may now **proceed to the next section**.
 
 By automating your Oracle Database deployments with SQLcl Liquibase, you are unlocking a new level of control with your database not possible before. Create, update, and rollback environments with speed and precision so that you can save time, avoid manual errors, and check tedious tasks off your to do list.
 
-Building off of the database object automation technology of open-source Liquibase, SQLcl Liquibase injects significant enhancements into this tool such as being able to capture and deploy individual database objects, applications built using Oracle APEX, and Oracle REST APIs.
+Building off of the database object automation technology of open-source Liquibase, SQLcl Liquibase injects significant enhancements into this tool such as being able to capture and deploy: individual database objects, applications built using Oracle APEX, and Oracle REST APIs.
 
 While the [Take Control of Your Database With Automated Schema Changes](https://apexapps.oracle.com/pls/apex/f?p=133:180:13297437230967::::wid:3692) workshop focuses on giving you a 101 bootcamp of the core SQLcl Liquibase concepts, **Deploy APEX Apps In The Time It Takes To Make Your Morning Coffee** focuses on giving you a bird's eye view of how your different deployment options can come together to create a powerful full stack development project utilizing database objects, data, and REST APIs to power your core application.
 
@@ -103,7 +103,7 @@ Oracle Application Express (APEX) is a low code development platform for buildin
 
 With APEX, on average developers are able to build applications 20x faster with 100x less code. Combined with SQLcl's Liquibase feature, you can now deploy this power with speed, efficiency, and automation.
 
-Oracle APEX comes free with your Oracle Database. You can learn more about APEX [HERE](https://apex.oracle.com/)
+Oracle APEX comes free with your Oracle Database. You can learn more about APEX: [HERE](https://apex.oracle.com/)
 
 ## Oracle REST Data Services (ORDS)
 
@@ -113,7 +113,7 @@ Oracle REST Data Services (ORDS) is a tool to easily build powerful and secure R
 
 Using SQLcl Liquibase, you can capture, deploy, and update REST APIs you create with ORDS to other database users or Oracle Databases entirely.
 
-Oracle REST Data Services is included for free with your Oracle Database. You can learn more [HERE](https://www.oracle.com/dk/database/technologies/appdev/rest.html)
+Oracle REST Data Services is included for free with your Oracle Database. You can learn more: [HERE](https://www.oracle.com/dk/database/technologies/appdev/rest.html)
 
 ## DevOps & Continuous Integration/Continuous Delivery (CI/CD)
 

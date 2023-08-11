@@ -8,7 +8,7 @@ In this setup lab, you will be creating your Oracle Autonomous Database and APEX
 
 APEX instances are located within your Oracle Database schema and the workspace is your "work area" where you create and import applications and can manage supporting components such as your database objects and Oracle REST API modules. 
 
-While this workshop will have you creating your own workspace to populate with the deployments you'll add in [Lab 2](../workshops/tenancy/?lab=lab2-deploy), you can additionally use SQLcl Liquibase to import entire workspaces to your Oracle Database.
+While this workshop will have you creating your own workspace to then populate with the deployments you'll add in [Lab 2](../workshops/tenancy/?lab=lab2-deploy), you can additionally use SQLcl Liquibase to import entire workspaces to your Oracle Database.
 
 
 
